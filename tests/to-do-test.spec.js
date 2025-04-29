@@ -122,6 +122,7 @@ test.describe('Completed Tasks', () => {
         await toDoTasksPage.markTaskAsCompleted(taskText);
 
         const completedPage = await homePage.clickCompletedTab();
+        expect(await completedPage.getCompletedTasksCount()).toBe(1);
         await completedPage.deleteTask(taskText);
 
         expect(await completedPage.getCompletedTasksCount()).toBe(0);
