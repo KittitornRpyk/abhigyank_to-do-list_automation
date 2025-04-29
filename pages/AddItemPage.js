@@ -1,4 +1,6 @@
-class AddItem {
+export {AddItemPage};
+
+class AddItemPage {
     constructor(page) {
         this.page = page;
         this.toDoInputTextBox = page.locator('input#new-task');
