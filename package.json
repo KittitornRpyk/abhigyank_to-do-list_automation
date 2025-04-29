@@ -1,0 +1,22 @@
+{
+  "name": "abhigyank_to-do-list_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KittitornRpyk/abhigyank_to-do-list_automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KittitornRpyk/abhigyank_to-do-list_automation/issues"
+  },
+  "homepage": "https://github.com/KittitornRpyk/abhigyank_to-do-list_automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3"
+  }
+}
